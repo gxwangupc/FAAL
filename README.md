@@ -1,6 +1,6 @@
 # Code for the RemoteSensing2020 manuscript 'Hyperspectral Image Classification with Feature-Oriented Adversarial Active Learning'.
 ---------------------------------------------
-* Here I provide Tensorflow implementations for FAAL.
+* Here I provide the Tensorflow implementation for FAAL.
 
 
 ## * Environment & Main Dependencies
