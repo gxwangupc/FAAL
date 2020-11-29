@@ -15,7 +15,7 @@
 Set them to what you want when running a code.<br>
 
 ## * Citation
->@article{Wang2020FAAL, 
+>@article{Wang2020FAAL, <br>
 >	  title={Hyperspectral Image Classification with Feature-Oriented Adversarial Active Learning}, <br>
 >	  author={Wang, Guangxing and Ren, Peng}, <br>
 >	  journal={Remote Sensing}, <br>
@@ -23,7 +23,7 @@ Set them to what you want when running a code.<br>
 >	  number={23}, <br>
 >	  pages={3879}, <br>
 >   month={November} <br>
->	  year={2017} <br>
+>	  year={2020} <br>
 >}<br>
 
 
