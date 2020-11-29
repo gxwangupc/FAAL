@@ -22,7 +22,7 @@ Set them to what you want when running a code.<br>
 >	  volume={12}, <br>
 >	  number={23}, <br>
 >	  pages={3879}, <br>
->   month={November} <br>
+>   month={November}, <br>
 >	  year={2020} <br>
 >}<br>
 
