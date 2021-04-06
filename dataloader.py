@@ -116,8 +116,8 @@ def get_data(data, label, index):
     
     patch_index = 0
 
-    for row in range(margin, data_padded.shape[0] - 2 * margin):
-        for col in range(margin, data_padded.shape[1] - 2 * margin):
+    for row in range(margin, data_padded.shape[0] - margin):
+        for col in range(margin, data_padded.shape[1] - margin):
             if list([row - margin, col - margin]) in index:
                 patch = data_padded[row - margin:row + margin + 1, col - margin:col + margin + 1]
                 _patch[patch_index, :, :, :] = patch
