@@ -23,8 +23,8 @@ print("using gpu {}".format(opt.GPU))
 """
 Data preparation.
 """
-opt.use_PCA = False
-opt.use_SuperPCA = True
+opt.use_PCA = True
+opt.use_SuperPCA = False
 print(opt.use_PCA)
 print(opt.use_SuperPCA)
 assert (opt.use_PCA and opt.use_SuperPCA) == False
