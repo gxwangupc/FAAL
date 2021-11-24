@@ -33,9 +33,9 @@ class Config():
         self.parser.add_argument('-DECAY', type=float, default=1e-06, help='decay rate')
         self.parser.add_argument('-use_MS', type=bool, default=True,
                                  help='use mode seeking loss or not when training gan')
-        self.parser.add_argument('-use_PCA', type=bool, default=False,
+        self.parser.add_argument('-use_PCA', type=bool, default=True,
                                  help='use PCA or not')
-        self.parser.add_argument('-use_SuperPCA', type=bool, default=True,
+        self.parser.add_argument('-use_SuperPCA', type=bool, default=False,
                                  help='use SuperPCA or not')
         self.parser.add_argument('-DATA_DIR', default='./dataset/', help='directory to load data')
         self.parser.add_argument('-RESULT', default='./result/', help='directory to save results')
